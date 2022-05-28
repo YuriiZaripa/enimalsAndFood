@@ -1,12 +1,6 @@
-public abstract class Herbivore extends Animal {
+public abstract class Herbivore extends Animal<Plant> {
 
-    public void eat(Food food) {
-        System.out.print("I'm " + name + ". ");
-        if (food instanceof Plant) {
-            System.out.println("Yummy!");
-        } else {
-            System.out.println("I don't eat that!");
-        }
+    public void eat(Plant food) {
+        System.out.println("I'm " + name + ".\nYummy!");
     }
-
 }

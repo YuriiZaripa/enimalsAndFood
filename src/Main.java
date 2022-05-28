@@ -11,9 +11,9 @@ public class Main {
         feed(goat, grass);
         feed(lion, cow);
 
-        feed(goat, cow);
-        feed(cow, lion);
-        feed(lion, grass);
+//        feed(goat, cow);
+//        feed(cow, lion);
+//        feed(lion, grass);
     }
 
     public static void feed(Animal animal, Food food) {
